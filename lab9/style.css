@@ -1,0 +1,59 @@
+body{
+  background-color: gray;
+}
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+input {
+  font-size: 20px;
+  padding: 10px ;
+}
+.container{
+  position: static;
+  background-color: white;
+  width: 400px;
+  height: 556.94px;
+  border-radius: 10px;
+  margin: 200px 750px;
+  
+}
+.container .inside-container{
+  margin:0px
+}
+/* .container .inside-container .header p{
+  color: #6c727b;
+} */
+.header{
+  margin: 0 15px ;
+  padding: 15px 0;
+}
+.f-body{
+  margin: 10px 10px;
+}
+.f-body .fname{
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 43%;
+  height: 20px;
+}
+.f-body .lname{
+  border-radius: 5px;
+  border: 1px solid gray;
+  width: 43%;
+  height: 20px;
+}
+p{
+  color: #6c727b;
+}
+
